@@ -1,0 +1,5 @@
+useDynLib(fastTextR)
+importFrom(Rcpp, evalCpp)
+
+export(predict_unknown_words)
+export(skipgram_cbow)

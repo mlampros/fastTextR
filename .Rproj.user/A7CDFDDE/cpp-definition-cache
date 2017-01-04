@@ -1,0 +1,1079 @@
+[
+    {
+        "definitions" : [
+            {
+                "column" : 12,
+                "file" : "/home/lampros/Desktop/kaggle_gpu/add_GITHUB/fastTextR/src/args.cc",
+                "kind" : 7,
+                "line" : 45,
+                "name" : "parseArgs(int, char **)",
+                "parent_name" : "Args",
+                "usr" : "c:@N@fasttext@C@Args@F@parseArgs#I#**C#"
+            },
+            {
+                "column" : 12,
+                "file" : "/home/lampros/Desktop/kaggle_gpu/add_GITHUB/fastTextR/src/args.cc",
+                "kind" : 7,
+                "line" : 135,
+                "name" : "printHelp",
+                "parent_name" : "Args",
+                "usr" : "c:@N@fasttext@C@Args@F@printHelp#"
+            },
+            {
+                "column" : 12,
+                "file" : "/home/lampros/Desktop/kaggle_gpu/add_GITHUB/fastTextR/src/args.cc",
+                "kind" : 7,
+                "line" : 165,
+                "name" : "save(std::ostream &)",
+                "parent_name" : "Args",
+                "usr" : "c:@N@fasttext@C@Args@F@save#&$@N@std@N@__1@C@basic_ostream>#C#$@N@std@N@__1@S@char_traits>#C#"
+            },
+            {
+                "column" : 12,
+                "file" : "/home/lampros/Desktop/kaggle_gpu/add_GITHUB/fastTextR/src/args.cc",
+                "kind" : 7,
+                "line" : 181,
+                "name" : "load(std::istream &)",
+                "parent_name" : "Args",
+                "usr" : "c:@N@fasttext@C@Args@F@load#&$@N@std@N@__1@C@basic_istream>#C#$@N@std@N@__1@S@char_traits>#C#"
+            }
+        ],
+        "file" : "/home/lampros/Desktop/kaggle_gpu/add_GITHUB/fastTextR/src/args.cc",
+        "file_last_write" : 1476714470
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 7,
+                "file" : "/home/lampros/Desktop/kaggle_gpu/add_GITHUB/fastTextR/src/args.h",
+                "kind" : 2,
+                "line" : 22,
+                "name" : "Args",
+                "parent_name" : "",
+                "usr" : "c:@N@fasttext@C@Args"
+            }
+        ],
+        "file" : "/home/lampros/Desktop/kaggle_gpu/add_GITHUB/fastTextR/src/args.h",
+        "file_last_write" : 1476697885
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 21,
+                "file" : "/home/lampros/Desktop/kaggle_gpu/add_GITHUB/fastTextR/src/dictionary.cc",
+                "kind" : 7,
+                "line" : 43,
+                "name" : "find(const std::string &)",
+                "parent_name" : "Dictionary",
+                "usr" : "c:@N@fasttext@C@Dictionary@F@find#&1$@N@std@N@__1@C@basic_string>#C#$@N@std@N@__1@S@char_traits>#C#$@N@std@N@__1@C@allocator>#C#1"
+            },
+            {
+                "column" : 18,
+                "file" : "/home/lampros/Desktop/kaggle_gpu/add_GITHUB/fastTextR/src/dictionary.cc",
+                "kind" : 7,
+                "line" : 51,
+                "name" : "add(const std::string &)",
+                "parent_name" : "Dictionary",
+                "usr" : "c:@N@fasttext@C@Dictionary@F@add#&1$@N@std@N@__1@C@basic_string>#C#$@N@std@N@__1@S@char_traits>#C#$@N@std@N@__1@C@allocator>#C#"
+            },
+            {
+                "column" : 21,
+                "file" : "/home/lampros/Desktop/kaggle_gpu/add_GITHUB/fastTextR/src/dictionary.cc",
+                "kind" : 7,
+                "line" : 66,
+                "name" : "nwords",
+                "parent_name" : "Dictionary",
+                "usr" : "c:@N@fasttext@C@Dictionary@F@nwords#1"
+            },
+            {
+                "column" : 21,
+                "file" : "/home/lampros/Desktop/kaggle_gpu/add_GITHUB/fastTextR/src/dictionary.cc",
+                "kind" : 7,
+                "line" : 70,
+                "name" : "nlabels",
+                "parent_name" : "Dictionary",
+                "usr" : "c:@N@fasttext@C@Dictionary@F@nlabels#1"
+            },
+            {
+                "column" : 21,
+                "file" : "/home/lampros/Desktop/kaggle_gpu/add_GITHUB/fastTextR/src/dictionary.cc",
+                "kind" : 7,
+                "line" : 74,
+                "name" : "ntokens",
+                "parent_name" : "Dictionary",
+                "usr" : "c:@N@fasttext@C@Dictionary@F@ntokens#1"
+            },
+            {
+                "column" : 41,
+                "file" : "/home/lampros/Desktop/kaggle_gpu/add_GITHUB/fastTextR/src/dictionary.cc",
+                "kind" : 7,
+                "line" : 78,
+                "name" : "getNgrams(int32_t)",
+                "parent_name" : "Dictionary",
+                "usr" : "c:@N@fasttext@C@Dictionary@F@getNgrams#I#1"
+            },
+            {
+                "column" : 40,
+                "file" : "/home/lampros/Desktop/kaggle_gpu/add_GITHUB/fastTextR/src/dictionary.cc",
+                "kind" : 7,
+                "line" : 84,
+                "name" : "getNgrams(const std::string &)",
+                "parent_name" : "Dictionary",
+                "usr" : "c:@N@fasttext@C@Dictionary@F@getNgrams#&1$@N@std@N@__1@C@basic_string>#C#$@N@std@N@__1@S@char_traits>#C#$@N@std@N@__1@C@allocator>#C#1"
+            },
+            {
+                "column" : 18,
+                "file" : "/home/lampros/Desktop/kaggle_gpu/add_GITHUB/fastTextR/src/dictionary.cc",
+                "kind" : 7,
+                "line" : 94,
+                "name" : "discard(int32_t, real)",
+                "parent_name" : "Dictionary",
+                "usr" : "c:@N@fasttext@C@Dictionary@F@discard#I#f#1"
+            },
+            {
+                "column" : 21,
+                "file" : "/home/lampros/Desktop/kaggle_gpu/add_GITHUB/fastTextR/src/dictionary.cc",
+                "kind" : 7,
+                "line" : 101,
+                "name" : "getId(const std::string &)",
+                "parent_name" : "Dictionary",
+                "usr" : "c:@N@fasttext@C@Dictionary@F@getId#&1$@N@std@N@__1@C@basic_string>#C#$@N@std@N@__1@S@char_traits>#C#$@N@std@N@__1@C@allocator>#C#1"
+            },
+            {
+                "column" : 24,
+                "file" : "/home/lampros/Desktop/kaggle_gpu/add_GITHUB/fastTextR/src/dictionary.cc",
+                "kind" : 7,
+                "line" : 106,
+                "name" : "getType(int32_t)",
+                "parent_name" : "Dictionary",
+                "usr" : "c:@N@fasttext@C@Dictionary@F@getType#I#1"
+            },
+            {
+                "column" : 25,
+                "file" : "/home/lampros/Desktop/kaggle_gpu/add_GITHUB/fastTextR/src/dictionary.cc",
+                "kind" : 7,
+                "line" : 112,
+                "name" : "getWord(int32_t)",
+                "parent_name" : "Dictionary",
+                "usr" : "c:@N@fasttext@C@Dictionary@F@getWord#I#1"
+            },
+            {
+                "column" : 22,
+                "file" : "/home/lampros/Desktop/kaggle_gpu/add_GITHUB/fastTextR/src/dictionary.cc",
+                "kind" : 7,
+                "line" : 118,
+                "name" : "hash(const std::string &)",
+                "parent_name" : "Dictionary",
+                "usr" : "c:@N@fasttext@C@Dictionary@F@hash#&1$@N@std@N@__1@C@basic_string>#C#$@N@std@N@__1@S@char_traits>#C#$@N@std@N@__1@C@allocator>#C#1"
+            },
+            {
+                "column" : 18,
+                "file" : "/home/lampros/Desktop/kaggle_gpu/add_GITHUB/fastTextR/src/dictionary.cc",
+                "kind" : 7,
+                "line" : 127,
+                "name" : "computeNgrams(const std::string &, std::vector<int32_t> &)",
+                "parent_name" : "Dictionary",
+                "usr" : "c:@N@fasttext@C@Dictionary@F@computeNgrams#&1$@N@std@N@__1@C@basic_string>#C#$@N@std@N@__1@S@char_traits>#C#$@N@std@N@__1@C@allocator>#C#&$@N@std@N@__1@C@vector>#I#$@N@std@N@__1@C@allocator>#I#1"
+            },
+            {
+                "column" : 18,
+                "file" : "/home/lampros/Desktop/kaggle_gpu/add_GITHUB/fastTextR/src/dictionary.cc",
+                "kind" : 7,
+                "line" : 145,
+                "name" : "initNgrams",
+                "parent_name" : "Dictionary",
+                "usr" : "c:@N@fasttext@C@Dictionary@F@initNgrams#"
+            },
+            {
+                "column" : 18,
+                "file" : "/home/lampros/Desktop/kaggle_gpu/add_GITHUB/fastTextR/src/dictionary.cc",
+                "kind" : 7,
+                "line" : 153,
+                "name" : "readWord(std::istream &, std::string &)",
+                "parent_name" : "Dictionary",
+                "usr" : "c:@N@fasttext@C@Dictionary@F@readWord#&$@N@std@N@__1@C@basic_istream>#C#$@N@std@N@__1@S@char_traits>#C#&$@N@std@N@__1@C@basic_string>#C#S2_#$@N@std@N@__1@C@allocator>#C#1"
+            },
+            {
+                "column" : 18,
+                "file" : "/home/lampros/Desktop/kaggle_gpu/add_GITHUB/fastTextR/src/dictionary.cc",
+                "kind" : 7,
+                "line" : 179,
+                "name" : "readFromFile(std::istream &)",
+                "parent_name" : "Dictionary",
+                "usr" : "c:@N@fasttext@C@Dictionary@F@readFromFile#&$@N@std@N@__1@C@basic_istream>#C#$@N@std@N@__1@S@char_traits>#C#"
+            },
+            {
+                "column" : 18,
+                "file" : "/home/lampros/Desktop/kaggle_gpu/add_GITHUB/fastTextR/src/dictionary.cc",
+                "kind" : 7,
+                "line" : 205,
+                "name" : "threshold(int64_t)",
+                "parent_name" : "Dictionary",
+                "usr" : "c:@N@fasttext@C@Dictionary@F@threshold#L#"
+            },
+            {
+                "column" : 18,
+                "file" : "/home/lampros/Desktop/kaggle_gpu/add_GITHUB/fastTextR/src/dictionary.cc",
+                "kind" : 7,
+                "line" : 228,
+                "name" : "initTableDiscard",
+                "parent_name" : "Dictionary",
+                "usr" : "c:@N@fasttext@C@Dictionary@F@initTableDiscard#"
+            },
+            {
+                "column" : 34,
+                "file" : "/home/lampros/Desktop/kaggle_gpu/add_GITHUB/fastTextR/src/dictionary.cc",
+                "kind" : 7,
+                "line" : 236,
+                "name" : "getCounts(fasttext::entry_type)",
+                "parent_name" : "Dictionary",
+                "usr" : "c:@N@fasttext@C@Dictionary@F@getCounts#$@N@fasttext@E@entry_type#1"
+            },
+            {
+                "column" : 18,
+                "file" : "/home/lampros/Desktop/kaggle_gpu/add_GITHUB/fastTextR/src/dictionary.cc",
+                "kind" : 7,
+                "line" : 244,
+                "name" : "addNgrams(std::vector<int32_t> &, int32_t)",
+                "parent_name" : "Dictionary",
+                "usr" : "c:@N@fasttext@C@Dictionary@F@addNgrams#&$@N@std@N@__1@C@vector>#I#$@N@std@N@__1@C@allocator>#I#I#1"
+            },
+            {
+                "column" : 21,
+                "file" : "/home/lampros/Desktop/kaggle_gpu/add_GITHUB/fastTextR/src/dictionary.cc",
+                "kind" : 7,
+                "line" : 255,
+                "name" : "getLine(std::istream &, std::vector<int32_t> &, std::vector<int32_t> &, std::minstd_rand &)",
+                "parent_name" : "Dictionary",
+                "usr" : "c:@N@fasttext@C@Dictionary@F@getLine#&$@N@std@N@__1@C@basic_istream>#C#$@N@std@N@__1@S@char_traits>#C#&$@N@std@N@__1@C@vector>#I#$@N@std@N@__1@C@allocator>#I#S3_#&$@N@std@N@__1@C@linear_congruential_engine>#l#Vl48271#Vl0#Vl2147483647#1"
+            },
+            {
+                "column" : 25,
+                "file" : "/home/lampros/Desktop/kaggle_gpu/add_GITHUB/fastTextR/src/dictionary.cc",
+                "kind" : 7,
+                "line" : 285,
+                "name" : "getLabel(int32_t)",
+                "parent_name" : "Dictionary",
+                "usr" : "c:@N@fasttext@C@Dictionary@F@getLabel#I#1"
+            },
+            {
+                "column" : 18,
+                "file" : "/home/lampros/Desktop/kaggle_gpu/add_GITHUB/fastTextR/src/dictionary.cc",
+                "kind" : 7,
+                "line" : 291,
+                "name" : "save(std::ostream &)",
+                "parent_name" : "Dictionary",
+                "usr" : "c:@N@fasttext@C@Dictionary@F@save#&$@N@std@N@__1@C@basic_ostream>#C#$@N@std@N@__1@S@char_traits>#C#1"
+            },
+            {
+                "column" : 18,
+                "file" : "/home/lampros/Desktop/kaggle_gpu/add_GITHUB/fastTextR/src/dictionary.cc",
+                "kind" : 7,
+                "line" : 305,
+                "name" : "load(std::istream &)",
+                "parent_name" : "Dictionary",
+                "usr" : "c:@N@fasttext@C@Dictionary@F@load#&$@N@std@N@__1@C@basic_istream>#C#$@N@std@N@__1@S@char_traits>#C#"
+            }
+        ],
+        "file" : "/home/lampros/Desktop/kaggle_gpu/add_GITHUB/fastTextR/src/dictionary.cc",
+        "file_last_write" : 1476714476
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 17,
+                "file" : "/home/lampros/Desktop/kaggle_gpu/add_GITHUB/fastTextR/src/dictionary.h",
+                "kind" : 8,
+                "line" : 25,
+                "name" : "id_type",
+                "parent_name" : "",
+                "usr" : "c:dictionary.h@N@fasttext@T@id_type"
+            },
+            {
+                "column" : 8,
+                "file" : "/home/lampros/Desktop/kaggle_gpu/add_GITHUB/fastTextR/src/dictionary.h",
+                "kind" : 3,
+                "line" : 28,
+                "name" : "entry",
+                "parent_name" : "",
+                "usr" : "c:@N@fasttext@S@entry"
+            },
+            {
+                "column" : 7,
+                "file" : "/home/lampros/Desktop/kaggle_gpu/add_GITHUB/fastTextR/src/dictionary.h",
+                "kind" : 2,
+                "line" : 35,
+                "name" : "Dictionary",
+                "parent_name" : "",
+                "usr" : "c:@N@fasttext@C@Dictionary"
+            }
+        ],
+        "file" : "/home/lampros/Desktop/kaggle_gpu/add_GITHUB/fastTextR/src/dictionary.h",
+        "file_last_write" : 1476697885
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 16,
+                "file" : "/home/lampros/Desktop/kaggle_gpu/add_GITHUB/fastTextR/src/fasttext.cc",
+                "kind" : 7,
+                "line" : 30,
+                "name" : "getVector(fasttext::Vector &, const std::string &)",
+                "parent_name" : "FastText",
+                "usr" : "c:@N@fasttext@C@FastText@F@getVector#&$@N@fasttext@C@Vector#&1$@N@std@N@__1@C@basic_string>#C#$@N@std@N@__1@S@char_traits>#C#$@N@std@N@__1@C@allocator>#C#"
+            },
+            {
+                "column" : 16,
+                "file" : "/home/lampros/Desktop/kaggle_gpu/add_GITHUB/fastTextR/src/fasttext.cc",
+                "kind" : 7,
+                "line" : 41,
+                "name" : "saveVectors",
+                "parent_name" : "FastText",
+                "usr" : "c:@N@fasttext@C@FastText@F@saveVectors#"
+            },
+            {
+                "column" : 16,
+                "file" : "/home/lampros/Desktop/kaggle_gpu/add_GITHUB/fastTextR/src/fasttext.cc",
+                "kind" : 7,
+                "line" : 57,
+                "name" : "saveModel",
+                "parent_name" : "FastText",
+                "usr" : "c:@N@fasttext@C@FastText@F@saveModel#"
+            },
+            {
+                "column" : 16,
+                "file" : "/home/lampros/Desktop/kaggle_gpu/add_GITHUB/fastTextR/src/fasttext.cc",
+                "kind" : 7,
+                "line" : 70,
+                "name" : "loadModel(const std::string &)",
+                "parent_name" : "FastText",
+                "usr" : "c:@N@fasttext@C@FastText@F@loadModel#&1$@N@std@N@__1@C@basic_string>#C#$@N@std@N@__1@S@char_traits>#C#$@N@std@N@__1@C@allocator>#C#"
+            },
+            {
+                "column" : 16,
+                "file" : "/home/lampros/Desktop/kaggle_gpu/add_GITHUB/fastTextR/src/fasttext.cc",
+                "kind" : 7,
+                "line" : 80,
+                "name" : "loadModel(std::istream &)",
+                "parent_name" : "FastText",
+                "usr" : "c:@N@fasttext@C@FastText@F@loadModel#&$@N@std@N@__1@C@basic_istream>#C#$@N@std@N@__1@S@char_traits>#C#"
+            },
+            {
+                "column" : 16,
+                "file" : "/home/lampros/Desktop/kaggle_gpu/add_GITHUB/fastTextR/src/fasttext.cc",
+                "kind" : 7,
+                "line" : 97,
+                "name" : "printInfo(real, real)",
+                "parent_name" : "FastText",
+                "usr" : "c:@N@fasttext@C@FastText@F@printInfo#f#f#"
+            },
+            {
+                "column" : 16,
+                "file" : "/home/lampros/Desktop/kaggle_gpu/add_GITHUB/fastTextR/src/fasttext.cc",
+                "kind" : 7,
+                "line" : 113,
+                "name" : "supervised(fasttext::Model &, real, const std::vector<int32_t> &, const std::vector<int32_t> &)",
+                "parent_name" : "FastText",
+                "usr" : "c:@N@fasttext@C@FastText@F@supervised#&$@N@fasttext@C@Model#f#&1$@N@std@N@__1@C@vector>#I#$@N@std@N@__1@C@allocator>#I#S2_#"
+            },
+            {
+                "column" : 16,
+                "file" : "/home/lampros/Desktop/kaggle_gpu/add_GITHUB/fastTextR/src/fasttext.cc",
+                "kind" : 7,
+                "line" : 122,
+                "name" : "cbow(fasttext::Model &, real, const std::vector<int32_t> &)",
+                "parent_name" : "FastText",
+                "usr" : "c:@N@fasttext@C@FastText@F@cbow#&$@N@fasttext@C@Model#f#&1$@N@std@N@__1@C@vector>#I#$@N@std@N@__1@C@allocator>#I#"
+            },
+            {
+                "column" : 16,
+                "file" : "/home/lampros/Desktop/kaggle_gpu/add_GITHUB/fastTextR/src/fasttext.cc",
+                "kind" : 7,
+                "line" : 139,
+                "name" : "skipgram(fasttext::Model &, real, const std::vector<int32_t> &)",
+                "parent_name" : "FastText",
+                "usr" : "c:@N@fasttext@C@FastText@F@skipgram#&$@N@fasttext@C@Model#f#&1$@N@std@N@__1@C@vector>#I#$@N@std@N@__1@C@allocator>#I#"
+            },
+            {
+                "column" : 16,
+                "file" : "/home/lampros/Desktop/kaggle_gpu/add_GITHUB/fastTextR/src/fasttext.cc",
+                "kind" : 7,
+                "line" : 153,
+                "name" : "test(std::istream &, int32_t)",
+                "parent_name" : "FastText",
+                "usr" : "c:@N@fasttext@C@FastText@F@test#&$@N@std@N@__1@C@basic_istream>#C#$@N@std@N@__1@S@char_traits>#C#I#"
+            },
+            {
+                "column" : 16,
+                "file" : "/home/lampros/Desktop/kaggle_gpu/add_GITHUB/fastTextR/src/fasttext.cc",
+                "kind" : 7,
+                "line" : 179,
+                "name" : "predict(std::istream &, int32_t, std::vector<std::pair<real, std::string> > &)",
+                "parent_name" : "FastText",
+                "usr" : "c:@N@fasttext@C@FastText@F@predict#&$@N@std@N@__1@C@basic_istream>#C#$@N@std@N@__1@S@char_traits>#C#I#&$@N@std@N@__1@C@vector>#$@N@std@N@__1@S@pair>#f#$@N@std@N@__1@C@basic_string>#C#S2_#$@N@std@N@__1@C@allocator>#C#$@N@std@N@__1@C@allocator>#S5_#1"
+            },
+            {
+                "column" : 16,
+                "file" : "/home/lampros/Desktop/kaggle_gpu/add_GITHUB/fastTextR/src/fasttext.cc",
+                "kind" : 7,
+                "line" : 195,
+                "name" : "predict(std::istream &, int32_t, bool)",
+                "parent_name" : "FastText",
+                "usr" : "c:@N@fasttext@C@FastText@F@predict#&$@N@std@N@__1@C@basic_istream>#C#$@N@std@N@__1@S@char_traits>#C#I#b#"
+            },
+            {
+                "column" : 16,
+                "file" : "/home/lampros/Desktop/kaggle_gpu/add_GITHUB/fastTextR/src/fasttext.cc",
+                "kind" : 7,
+                "line" : 225,
+                "name" : "wordVectors(std::string &, std::string &)",
+                "parent_name" : "FastText",
+                "usr" : "c:@N@fasttext@C@FastText@F@wordVectors#&$@N@std@N@__1@C@basic_string>#C#$@N@std@N@__1@S@char_traits>#C#$@N@std@N@__1@C@allocator>#C#S0_#"
+            },
+            {
+                "column" : 16,
+                "file" : "/home/lampros/Desktop/kaggle_gpu/add_GITHUB/fastTextR/src/fasttext.cc",
+                "kind" : 7,
+                "line" : 244,
+                "name" : "textVectors",
+                "parent_name" : "FastText",
+                "usr" : "c:@N@fasttext@C@FastText@F@textVectors#"
+            },
+            {
+                "column" : 16,
+                "file" : "/home/lampros/Desktop/kaggle_gpu/add_GITHUB/fastTextR/src/fasttext.cc",
+                "kind" : 7,
+                "line" : 261,
+                "name" : "printVectors",
+                "parent_name" : "FastText",
+                "usr" : "c:@N@fasttext@C@FastText@F@printVectors#"
+            },
+            {
+                "column" : 16,
+                "file" : "/home/lampros/Desktop/kaggle_gpu/add_GITHUB/fastTextR/src/fasttext.cc",
+                "kind" : 7,
+                "line" : 270,
+                "name" : "trainThread(int32_t)",
+                "parent_name" : "FastText",
+                "usr" : "c:@N@fasttext@C@FastText@F@trainThread#I#"
+            },
+            {
+                "column" : 16,
+                "file" : "/home/lampros/Desktop/kaggle_gpu/add_GITHUB/fastTextR/src/fasttext.cc",
+                "kind" : 7,
+                "line" : 311,
+                "name" : "loadVectors(std::string)",
+                "parent_name" : "FastText",
+                "usr" : "c:@N@fasttext@C@FastText@F@loadVectors#$@N@std@N@__1@C@basic_string>#C#$@N@std@N@__1@S@char_traits>#C#$@N@std@N@__1@C@allocator>#C#"
+            },
+            {
+                "column" : 16,
+                "file" : "/home/lampros/Desktop/kaggle_gpu/add_GITHUB/fastTextR/src/fasttext.cc",
+                "kind" : 7,
+                "line" : 351,
+                "name" : "train(std::shared_ptr<Args>)",
+                "parent_name" : "FastText",
+                "usr" : "c:@N@fasttext@C@FastText@F@train#$@N@std@N@__1@C@shared_ptr>#$@N@fasttext@C@Args#"
+            }
+        ],
+        "file" : "/home/lampros/Desktop/kaggle_gpu/add_GITHUB/fastTextR/src/fasttext.cc",
+        "file_last_write" : 1476817477
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 7,
+                "file" : "/home/lampros/Desktop/kaggle_gpu/add_GITHUB/fastTextR/src/fasttext.h",
+                "kind" : 2,
+                "line" : 29,
+                "name" : "FastText",
+                "parent_name" : "",
+                "usr" : "c:@N@fasttext@C@FastText"
+            }
+        ],
+        "file" : "/home/lampros/Desktop/kaggle_gpu/add_GITHUB/fastTextR/src/fasttext.h",
+        "file_last_write" : 1476817442
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 6,
+                "file" : "/home/lampros/Desktop/kaggle_gpu/add_GITHUB/fastTextR/src/main.cc",
+                "kind" : 6,
+                "line" : 23,
+                "name" : "printUsage",
+                "parent_name" : "",
+                "usr" : "c:@F@printUsage#"
+            },
+            {
+                "column" : 6,
+                "file" : "/home/lampros/Desktop/kaggle_gpu/add_GITHUB/fastTextR/src/main.cc",
+                "kind" : 6,
+                "line" : 37,
+                "name" : "printTestUsage",
+                "parent_name" : "",
+                "usr" : "c:@F@printTestUsage#"
+            },
+            {
+                "column" : 6,
+                "file" : "/home/lampros/Desktop/kaggle_gpu/add_GITHUB/fastTextR/src/main.cc",
+                "kind" : 6,
+                "line" : 46,
+                "name" : "printPredictUsage",
+                "parent_name" : "",
+                "usr" : "c:@F@printPredictUsage#"
+            },
+            {
+                "column" : 6,
+                "file" : "/home/lampros/Desktop/kaggle_gpu/add_GITHUB/fastTextR/src/main.cc",
+                "kind" : 6,
+                "line" : 55,
+                "name" : "printPrintVectorsUsage",
+                "parent_name" : "",
+                "usr" : "c:@F@printPrintVectorsUsage#"
+            },
+            {
+                "column" : 6,
+                "file" : "/home/lampros/Desktop/kaggle_gpu/add_GITHUB/fastTextR/src/main.cc",
+                "kind" : 6,
+                "line" : 62,
+                "name" : "test(int, char **)",
+                "parent_name" : "",
+                "usr" : "c:@F@test#I#**C#"
+            },
+            {
+                "column" : 6,
+                "file" : "/home/lampros/Desktop/kaggle_gpu/add_GITHUB/fastTextR/src/main.cc",
+                "kind" : 6,
+                "line" : 89,
+                "name" : "predict(int, char **)",
+                "parent_name" : "",
+                "usr" : "c:@F@predict#I#**C#"
+            },
+            {
+                "column" : 6,
+                "file" : "/home/lampros/Desktop/kaggle_gpu/add_GITHUB/fastTextR/src/main.cc",
+                "kind" : 6,
+                "line" : 119,
+                "name" : "printVectors(int, char **)",
+                "parent_name" : "",
+                "usr" : "c:@F@printVectors#I#**C#"
+            },
+            {
+                "column" : 6,
+                "file" : "/home/lampros/Desktop/kaggle_gpu/add_GITHUB/fastTextR/src/main.cc",
+                "kind" : 6,
+                "line" : 130,
+                "name" : "train(int, char **)",
+                "parent_name" : "",
+                "usr" : "c:@F@train#I#**C#"
+            },
+            {
+                "column" : 6,
+                "file" : "/home/lampros/Desktop/kaggle_gpu/add_GITHUB/fastTextR/src/main.cc",
+                "kind" : 6,
+                "line" : 138,
+                "name" : "SAVE_dict_vectors(char **, std::string, std::string)",
+                "parent_name" : "",
+                "usr" : "c:@F@SAVE_dict_vectors#**C#$@N@std@N@__1@C@basic_string>#C#$@N@std@N@__1@S@char_traits>#C#$@N@std@N@__1@C@allocator>#C#S2_#"
+            },
+            {
+                "column" : 6,
+                "file" : "/home/lampros/Desktop/kaggle_gpu/add_GITHUB/fastTextR/src/main.cc",
+                "kind" : 6,
+                "line" : 155,
+                "name" : "convert_args_to_pointers(std::vector<std::string>, std::string, std::string)",
+                "parent_name" : "",
+                "usr" : "c:@F@convert_args_to_pointers#$@N@std@N@__1@C@vector>#$@N@std@N@__1@C@basic_string>#C#$@N@std@N@__1@S@char_traits>#C#$@N@std@N@__1@C@allocator>#C#$@N@std@N@__1@C@allocator>#S1_#S1_#S1_#"
+            }
+        ],
+        "file" : "/home/lampros/Desktop/kaggle_gpu/add_GITHUB/fastTextR/src/main.cc",
+        "file_last_write" : 1476865273
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 17,
+                "file" : "/home/lampros/Desktop/kaggle_gpu/add_GITHUB/fastTextR/src/matrix.cc",
+                "kind" : 7,
+                "line" : 47,
+                "name" : "operator=(const fasttext::Matrix &)",
+                "parent_name" : "Matrix",
+                "usr" : "c:@N@fasttext@C@Matrix@F@operator=#&1$@N@fasttext@C@Matrix#"
+            },
+            {
+                "column" : 14,
+                "file" : "/home/lampros/Desktop/kaggle_gpu/add_GITHUB/fastTextR/src/matrix.cc",
+                "kind" : 7,
+                "line" : 59,
+                "name" : "zero",
+                "parent_name" : "Matrix",
+                "usr" : "c:@N@fasttext@C@Matrix@F@zero#"
+            },
+            {
+                "column" : 14,
+                "file" : "/home/lampros/Desktop/kaggle_gpu/add_GITHUB/fastTextR/src/matrix.cc",
+                "kind" : 7,
+                "line" : 65,
+                "name" : "uniform(real)",
+                "parent_name" : "Matrix",
+                "usr" : "c:@N@fasttext@C@Matrix@F@uniform#f#"
+            },
+            {
+                "column" : 14,
+                "file" : "/home/lampros/Desktop/kaggle_gpu/add_GITHUB/fastTextR/src/matrix.cc",
+                "kind" : 7,
+                "line" : 73,
+                "name" : "addRow(const fasttext::Vector &, int64_t, real)",
+                "parent_name" : "Matrix",
+                "usr" : "c:@N@fasttext@C@Matrix@F@addRow#&1$@N@fasttext@C@Vector#L#f#"
+            },
+            {
+                "column" : 14,
+                "file" : "/home/lampros/Desktop/kaggle_gpu/add_GITHUB/fastTextR/src/matrix.cc",
+                "kind" : 7,
+                "line" : 82,
+                "name" : "dotRow(const fasttext::Vector &, int64_t)",
+                "parent_name" : "Matrix",
+                "usr" : "c:@N@fasttext@C@Matrix@F@dotRow#&1$@N@fasttext@C@Vector#L#"
+            },
+            {
+                "column" : 14,
+                "file" : "/home/lampros/Desktop/kaggle_gpu/add_GITHUB/fastTextR/src/matrix.cc",
+                "kind" : 7,
+                "line" : 93,
+                "name" : "save(std::ostream &)",
+                "parent_name" : "Matrix",
+                "usr" : "c:@N@fasttext@C@Matrix@F@save#&$@N@std@N@__1@C@basic_ostream>#C#$@N@std@N@__1@S@char_traits>#C#"
+            },
+            {
+                "column" : 14,
+                "file" : "/home/lampros/Desktop/kaggle_gpu/add_GITHUB/fastTextR/src/matrix.cc",
+                "kind" : 7,
+                "line" : 99,
+                "name" : "load(std::istream &)",
+                "parent_name" : "Matrix",
+                "usr" : "c:@N@fasttext@C@Matrix@F@load#&$@N@std@N@__1@C@basic_istream>#C#$@N@std@N@__1@S@char_traits>#C#"
+            }
+        ],
+        "file" : "/home/lampros/Desktop/kaggle_gpu/add_GITHUB/fastTextR/src/matrix.cc",
+        "file_last_write" : 1476714495
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 7,
+                "file" : "/home/lampros/Desktop/kaggle_gpu/add_GITHUB/fastTextR/src/matrix.h",
+                "kind" : 2,
+                "line" : 23,
+                "name" : "Matrix",
+                "parent_name" : "",
+                "usr" : "c:@N@fasttext@C@Matrix"
+            }
+        ],
+        "file" : "/home/lampros/Desktop/kaggle_gpu/add_GITHUB/fastTextR/src/matrix.h",
+        "file_last_write" : 1476697885
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 13,
+                "file" : "/home/lampros/Desktop/kaggle_gpu/add_GITHUB/fastTextR/src/model.cc",
+                "kind" : 7,
+                "line" : 42,
+                "name" : "binaryLogistic(int32_t, bool, real)",
+                "parent_name" : "Model",
+                "usr" : "c:@N@fasttext@C@Model@F@binaryLogistic#I#b#f#"
+            },
+            {
+                "column" : 13,
+                "file" : "/home/lampros/Desktop/kaggle_gpu/add_GITHUB/fastTextR/src/model.cc",
+                "kind" : 7,
+                "line" : 54,
+                "name" : "negativeSampling(int32_t, real)",
+                "parent_name" : "Model",
+                "usr" : "c:@N@fasttext@C@Model@F@negativeSampling#I#f#"
+            },
+            {
+                "column" : 13,
+                "file" : "/home/lampros/Desktop/kaggle_gpu/add_GITHUB/fastTextR/src/model.cc",
+                "kind" : 7,
+                "line" : 67,
+                "name" : "hierarchicalSoftmax(int32_t, real)",
+                "parent_name" : "Model",
+                "usr" : "c:@N@fasttext@C@Model@F@hierarchicalSoftmax#I#f#"
+            },
+            {
+                "column" : 13,
+                "file" : "/home/lampros/Desktop/kaggle_gpu/add_GITHUB/fastTextR/src/model.cc",
+                "kind" : 7,
+                "line" : 78,
+                "name" : "computeOutputSoftmax(fasttext::Vector &, fasttext::Vector &)",
+                "parent_name" : "Model",
+                "usr" : "c:@N@fasttext@C@Model@F@computeOutputSoftmax#&$@N@fasttext@C@Vector#S0_#1"
+            },
+            {
+                "column" : 13,
+                "file" : "/home/lampros/Desktop/kaggle_gpu/add_GITHUB/fastTextR/src/model.cc",
+                "kind" : 7,
+                "line" : 93,
+                "name" : "computeOutputSoftmax",
+                "parent_name" : "Model",
+                "usr" : "c:@N@fasttext@C@Model@F@computeOutputSoftmax#"
+            },
+            {
+                "column" : 13,
+                "file" : "/home/lampros/Desktop/kaggle_gpu/add_GITHUB/fastTextR/src/model.cc",
+                "kind" : 7,
+                "line" : 97,
+                "name" : "softmax(int32_t, real)",
+                "parent_name" : "Model",
+                "usr" : "c:@N@fasttext@C@Model@F@softmax#I#f#"
+            },
+            {
+                "column" : 13,
+                "file" : "/home/lampros/Desktop/kaggle_gpu/add_GITHUB/fastTextR/src/model.cc",
+                "kind" : 7,
+                "line" : 109,
+                "name" : "computeHidden(const std::vector<int32_t> &, fasttext::Vector &)",
+                "parent_name" : "Model",
+                "usr" : "c:@N@fasttext@C@Model@F@computeHidden#&1$@N@std@N@__1@C@vector>#I#$@N@std@N@__1@C@allocator>#I#&$@N@fasttext@C@Vector#1"
+            },
+            {
+                "column" : 13,
+                "file" : "/home/lampros/Desktop/kaggle_gpu/add_GITHUB/fastTextR/src/model.cc",
+                "kind" : 7,
+                "line" : 118,
+                "name" : "comparePairs(const std::pair<real, int32_t> &, const std::pair<real, int32_t> &)",
+                "parent_name" : "Model",
+                "usr" : "c:@N@fasttext@C@Model@F@comparePairs#&1$@N@std@N@__1@S@pair>#f#I#S0_#S"
+            },
+            {
+                "column" : 13,
+                "file" : "/home/lampros/Desktop/kaggle_gpu/add_GITHUB/fastTextR/src/model.cc",
+                "kind" : 7,
+                "line" : 123,
+                "name" : "predict(const std::vector<int32_t> &, int32_t, std::vector<std::pair<real, int32_t> > &, fasttext::Vector &, fasttext::Vector &)",
+                "parent_name" : "Model",
+                "usr" : "c:@N@fasttext@C@Model@F@predict#&1$@N@std@N@__1@C@vector>#I#$@N@std@N@__1@C@allocator>#I#I#&$@N@std@N@__1@C@vector>#$@N@std@N@__1@S@pair>#f#I#$@N@std@N@__1@C@allocator>#S5_#&$@N@fasttext@C@Vector#S7_#1"
+            },
+            {
+                "column" : 13,
+                "file" : "/home/lampros/Desktop/kaggle_gpu/add_GITHUB/fastTextR/src/model.cc",
+                "kind" : 7,
+                "line" : 137,
+                "name" : "predict(const std::vector<int32_t> &, int32_t, std::vector<std::pair<real, int32_t> > &)",
+                "parent_name" : "Model",
+                "usr" : "c:@N@fasttext@C@Model@F@predict#&1$@N@std@N@__1@C@vector>#I#$@N@std@N@__1@C@allocator>#I#I#&$@N@std@N@__1@C@vector>#$@N@std@N@__1@S@pair>#f#I#$@N@std@N@__1@C@allocator>#S5_#"
+            },
+            {
+                "column" : 13,
+                "file" : "/home/lampros/Desktop/kaggle_gpu/add_GITHUB/fastTextR/src/model.cc",
+                "kind" : 7,
+                "line" : 142,
+                "name" : "findKBest(int32_t, std::vector<std::pair<real, int32_t> > &, fasttext::Vector &, fasttext::Vector &)",
+                "parent_name" : "Model",
+                "usr" : "c:@N@fasttext@C@Model@F@findKBest#I#&$@N@std@N@__1@C@vector>#$@N@std@N@__1@S@pair>#f#I#$@N@std@N@__1@C@allocator>#S2_#&$@N@fasttext@C@Vector#S4_#1"
+            },
+            {
+                "column" : 13,
+                "file" : "/home/lampros/Desktop/kaggle_gpu/add_GITHUB/fastTextR/src/model.cc",
+                "kind" : 7,
+                "line" : 158,
+                "name" : "dfs(int32_t, int32_t, real, std::vector<std::pair<real, int32_t> > &, fasttext::Vector &)",
+                "parent_name" : "Model",
+                "usr" : "c:@N@fasttext@C@Model@F@dfs#I#I#f#&$@N@std@N@__1@C@vector>#$@N@std@N@__1@S@pair>#f#I#$@N@std@N@__1@C@allocator>#S2_#&$@N@fasttext@C@Vector#1"
+            },
+            {
+                "column" : 13,
+                "file" : "/home/lampros/Desktop/kaggle_gpu/add_GITHUB/fastTextR/src/model.cc",
+                "kind" : 7,
+                "line" : 180,
+                "name" : "update(const std::vector<int32_t> &, int32_t, real)",
+                "parent_name" : "Model",
+                "usr" : "c:@N@fasttext@C@Model@F@update#&1$@N@std@N@__1@C@vector>#I#$@N@std@N@__1@C@allocator>#I#I#f#"
+            },
+            {
+                "column" : 13,
+                "file" : "/home/lampros/Desktop/kaggle_gpu/add_GITHUB/fastTextR/src/model.cc",
+                "kind" : 7,
+                "line" : 202,
+                "name" : "setTargetCounts(const std::vector<int64_t> &)",
+                "parent_name" : "Model",
+                "usr" : "c:@N@fasttext@C@Model@F@setTargetCounts#&1$@N@std@N@__1@C@vector>#L#$@N@std@N@__1@C@allocator>#L#"
+            },
+            {
+                "column" : 13,
+                "file" : "/home/lampros/Desktop/kaggle_gpu/add_GITHUB/fastTextR/src/model.cc",
+                "kind" : 7,
+                "line" : 212,
+                "name" : "initTableNegatives(const std::vector<int64_t> &)",
+                "parent_name" : "Model",
+                "usr" : "c:@N@fasttext@C@Model@F@initTableNegatives#&1$@N@std@N@__1@C@vector>#L#$@N@std@N@__1@C@allocator>#L#"
+            },
+            {
+                "column" : 16,
+                "file" : "/home/lampros/Desktop/kaggle_gpu/add_GITHUB/fastTextR/src/model.cc",
+                "kind" : 7,
+                "line" : 226,
+                "name" : "getNegative(int32_t)",
+                "parent_name" : "Model",
+                "usr" : "c:@N@fasttext@C@Model@F@getNegative#I#"
+            },
+            {
+                "column" : 13,
+                "file" : "/home/lampros/Desktop/kaggle_gpu/add_GITHUB/fastTextR/src/model.cc",
+                "kind" : 7,
+                "line" : 235,
+                "name" : "buildTree(const std::vector<int64_t> &)",
+                "parent_name" : "Model",
+                "usr" : "c:@N@fasttext@C@Model@F@buildTree#&1$@N@std@N@__1@C@vector>#L#$@N@std@N@__1@C@allocator>#L#"
+            },
+            {
+                "column" : 13,
+                "file" : "/home/lampros/Desktop/kaggle_gpu/add_GITHUB/fastTextR/src/model.cc",
+                "kind" : 7,
+                "line" : 279,
+                "name" : "getLoss",
+                "parent_name" : "Model",
+                "usr" : "c:@N@fasttext@C@Model@F@getLoss#1"
+            }
+        ],
+        "file" : "/home/lampros/Desktop/kaggle_gpu/add_GITHUB/fastTextR/src/model.cc",
+        "file_last_write" : 1476714501
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 8,
+                "file" : "/home/lampros/Desktop/kaggle_gpu/add_GITHUB/fastTextR/src/model.h",
+                "kind" : 3,
+                "line" : 25,
+                "name" : "Node",
+                "parent_name" : "",
+                "usr" : "c:@N@fasttext@S@Node"
+            },
+            {
+                "column" : 7,
+                "file" : "/home/lampros/Desktop/kaggle_gpu/add_GITHUB/fastTextR/src/model.h",
+                "kind" : 2,
+                "line" : 33,
+                "name" : "Model",
+                "parent_name" : "",
+                "usr" : "c:@N@fasttext@C@Model"
+            }
+        ],
+        "file" : "/home/lampros/Desktop/kaggle_gpu/add_GITHUB/fastTextR/src/model.h",
+        "file_last_write" : 1476697885
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 15,
+                "file" : "/home/lampros/Desktop/kaggle_gpu/add_GITHUB/fastTextR/src/real.h",
+                "kind" : 8,
+                "line" : 15,
+                "name" : "real",
+                "parent_name" : "",
+                "usr" : "c:real.h@N@fasttext@T@real"
+            }
+        ],
+        "file" : "/home/lampros/Desktop/kaggle_gpu/add_GITHUB/fastTextR/src/real.h",
+        "file_last_write" : 1476697885
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 8,
+                "file" : "/home/lampros/Desktop/kaggle_gpu/add_GITHUB/fastTextR/src/utils.cc",
+                "kind" : 6,
+                "line" : 26,
+                "name" : "log(real)",
+                "parent_name" : "",
+                "usr" : "c:@N@fasttext@N@utils@F@log#f#"
+            },
+            {
+                "column" : 8,
+                "file" : "/home/lampros/Desktop/kaggle_gpu/add_GITHUB/fastTextR/src/utils.cc",
+                "kind" : 6,
+                "line" : 34,
+                "name" : "sigmoid(real)",
+                "parent_name" : "",
+                "usr" : "c:@N@fasttext@N@utils@F@sigmoid#f#"
+            },
+            {
+                "column" : 8,
+                "file" : "/home/lampros/Desktop/kaggle_gpu/add_GITHUB/fastTextR/src/utils.cc",
+                "kind" : 6,
+                "line" : 45,
+                "name" : "initTables",
+                "parent_name" : "",
+                "usr" : "c:@N@fasttext@N@utils@F@initTables#"
+            },
+            {
+                "column" : 8,
+                "file" : "/home/lampros/Desktop/kaggle_gpu/add_GITHUB/fastTextR/src/utils.cc",
+                "kind" : 6,
+                "line" : 50,
+                "name" : "initSigmoid",
+                "parent_name" : "",
+                "usr" : "c:@N@fasttext@N@utils@F@initSigmoid#"
+            },
+            {
+                "column" : 8,
+                "file" : "/home/lampros/Desktop/kaggle_gpu/add_GITHUB/fastTextR/src/utils.cc",
+                "kind" : 6,
+                "line" : 59,
+                "name" : "initLog",
+                "parent_name" : "",
+                "usr" : "c:@N@fasttext@N@utils@F@initLog#"
+            },
+            {
+                "column" : 8,
+                "file" : "/home/lampros/Desktop/kaggle_gpu/add_GITHUB/fastTextR/src/utils.cc",
+                "kind" : 6,
+                "line" : 68,
+                "name" : "freeTables",
+                "parent_name" : "",
+                "usr" : "c:@N@fasttext@N@utils@F@freeTables#"
+            },
+            {
+                "column" : 11,
+                "file" : "/home/lampros/Desktop/kaggle_gpu/add_GITHUB/fastTextR/src/utils.cc",
+                "kind" : 6,
+                "line" : 75,
+                "name" : "size(std::ifstream &)",
+                "parent_name" : "",
+                "usr" : "c:@N@fasttext@N@utils@F@size#&$@N@std@N@__1@C@basic_ifstream>#C#$@N@std@N@__1@S@char_traits>#C#"
+            },
+            {
+                "column" : 8,
+                "file" : "/home/lampros/Desktop/kaggle_gpu/add_GITHUB/fastTextR/src/utils.cc",
+                "kind" : 6,
+                "line" : 80,
+                "name" : "seek(std::ifstream &, int64_t)",
+                "parent_name" : "",
+                "usr" : "c:@N@fasttext@N@utils@F@seek#&$@N@std@N@__1@C@basic_ifstream>#C#$@N@std@N@__1@S@char_traits>#C#L#"
+            }
+        ],
+        "file" : "/home/lampros/Desktop/kaggle_gpu/add_GITHUB/fastTextR/src/utils.cc",
+        "file_last_write" : 1476714509
+    },
+    {
+        "definitions" : [
+        ],
+        "file" : "/home/lampros/Desktop/kaggle_gpu/add_GITHUB/fastTextR/src/utils.h",
+        "file_last_write" : 1476697885
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 17,
+                "file" : "/home/lampros/Desktop/kaggle_gpu/add_GITHUB/fastTextR/src/vector.cc",
+                "kind" : 7,
+                "line" : 35,
+                "name" : "size",
+                "parent_name" : "Vector",
+                "usr" : "c:@N@fasttext@C@Vector@F@size#1"
+            },
+            {
+                "column" : 14,
+                "file" : "/home/lampros/Desktop/kaggle_gpu/add_GITHUB/fastTextR/src/vector.cc",
+                "kind" : 7,
+                "line" : 39,
+                "name" : "zero",
+                "parent_name" : "Vector",
+                "usr" : "c:@N@fasttext@C@Vector@F@zero#"
+            },
+            {
+                "column" : 14,
+                "file" : "/home/lampros/Desktop/kaggle_gpu/add_GITHUB/fastTextR/src/vector.cc",
+                "kind" : 7,
+                "line" : 45,
+                "name" : "mul(real)",
+                "parent_name" : "Vector",
+                "usr" : "c:@N@fasttext@C@Vector@F@mul#f#"
+            },
+            {
+                "column" : 14,
+                "file" : "/home/lampros/Desktop/kaggle_gpu/add_GITHUB/fastTextR/src/vector.cc",
+                "kind" : 7,
+                "line" : 51,
+                "name" : "addRow(const fasttext::Matrix &, int64_t)",
+                "parent_name" : "Vector",
+                "usr" : "c:@N@fasttext@C@Vector@F@addRow#&1$@N@fasttext@C@Matrix#L#"
+            },
+            {
+                "column" : 14,
+                "file" : "/home/lampros/Desktop/kaggle_gpu/add_GITHUB/fastTextR/src/vector.cc",
+                "kind" : 7,
+                "line" : 60,
+                "name" : "addRow(const fasttext::Matrix &, int64_t, real)",
+                "parent_name" : "Vector",
+                "usr" : "c:@N@fasttext@C@Vector@F@addRow#&1$@N@fasttext@C@Matrix#L#f#"
+            },
+            {
+                "column" : 14,
+                "file" : "/home/lampros/Desktop/kaggle_gpu/add_GITHUB/fastTextR/src/vector.cc",
+                "kind" : 7,
+                "line" : 69,
+                "name" : "mul(const fasttext::Matrix &, const fasttext::Vector &)",
+                "parent_name" : "Vector",
+                "usr" : "c:@N@fasttext@C@Vector@F@mul#&1$@N@fasttext@C@Matrix#&1$@N@fasttext@C@Vector#"
+            },
+            {
+                "column" : 17,
+                "file" : "/home/lampros/Desktop/kaggle_gpu/add_GITHUB/fastTextR/src/vector.cc",
+                "kind" : 7,
+                "line" : 80,
+                "name" : "argmax",
+                "parent_name" : "Vector",
+                "usr" : "c:@N@fasttext@C@Vector@F@argmax#"
+            },
+            {
+                "column" : 15,
+                "file" : "/home/lampros/Desktop/kaggle_gpu/add_GITHUB/fastTextR/src/vector.cc",
+                "kind" : 7,
+                "line" : 92,
+                "name" : "operator[](int64_t)",
+                "parent_name" : "Vector",
+                "usr" : "c:@N@fasttext@C@Vector@F@operator[]#L#"
+            },
+            {
+                "column" : 21,
+                "file" : "/home/lampros/Desktop/kaggle_gpu/add_GITHUB/fastTextR/src/vector.cc",
+                "kind" : 7,
+                "line" : 96,
+                "name" : "operator[](int64_t)",
+                "parent_name" : "Vector",
+                "usr" : "c:@N@fasttext@C@Vector@F@operator[]#L#1"
+            },
+            {
+                "column" : 15,
+                "file" : "/home/lampros/Desktop/kaggle_gpu/add_GITHUB/fastTextR/src/vector.cc",
+                "kind" : 6,
+                "line" : 100,
+                "name" : "operator<<(std::ostream &, const fasttext::Vector &)",
+                "parent_name" : "",
+                "usr" : "c:@N@fasttext@F@operator<<#&$@N@std@N@__1@C@basic_ostream>#C#$@N@std@N@__1@S@char_traits>#C#&1$@N@fasttext@C@Vector#"
+            }
+        ],
+        "file" : "/home/lampros/Desktop/kaggle_gpu/add_GITHUB/fastTextR/src/vector.cc",
+        "file_last_write" : 1476714516
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 7,
+                "file" : "/home/lampros/Desktop/kaggle_gpu/add_GITHUB/fastTextR/src/vector.h",
+                "kind" : 2,
+                "line" : 22,
+                "name" : "Vector",
+                "parent_name" : "",
+                "usr" : "c:@N@fasttext@C@Vector"
+            }
+        ],
+        "file" : "/home/lampros/Desktop/kaggle_gpu/add_GITHUB/fastTextR/src/vector.h",
+        "file_last_write" : 1476697885
+    }
+]

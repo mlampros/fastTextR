@@ -2,6 +2,6 @@
 # Generator token: 10BE3573-1514-4C36-9D1C-5A225CD40393
 
 convert_args_to_pointers <- function(string_commands, INPUT, OUTPUT) {
-    invisible(.Call('fastTextR_convert_args_to_pointers', PACKAGE = 'fastTextR', string_commands, INPUT, OUTPUT))
+    invisible(.Call(`_fastTextR_convert_args_to_pointers`, string_commands, INPUT, OUTPUT))
 }
 

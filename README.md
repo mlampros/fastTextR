@@ -1,18 +1,42 @@
 
+[![Travis-CI Build Status](https://travis-ci.org/mlampros/fastTextR.svg?branch=master)](https://travis-ci.org/mlampros/fastTextR)
+[![codecov.io](https://codecov.io/github/mlampros/fastTextR/coverage.svg?branch=master)](https://codecov.io/github/mlampros/fastTextR?branch=master)
+[![AppVeyor build status](https://ci.appveyor.com/api/projects/status/github/mlampros/fastTextR?branch=master&svg=true)](https://ci.appveyor.com/project/mlampros/fastTextR/branch/master)
+
+
+
+
 ## fastTextR
 <br>
 
 The fastTextR package is an R wrapper (only) for the *skipgram* and *cbow* functions of the [*fastText*](https://github.com/facebookresearch/fastText) library. *fastText* is a library for efficient learning of word representations and sentence classification. Since it uses C++11 features, it requires a compiler with good C++11 support. These include : (gcc-4.6.3 or newer) or (clang-3.3 or newer). More information about the fastText library can be found in [https://github.com/facebookresearch/fastText](https://github.com/facebookresearch/fastText). COPYRIGHTS, LICENSE and PATENTS files can be found in the *inst* folder of the R package.
 
+A detailed example can be found in my [blog-post](http://mlampros.github.io/2017/01/05/textTinyR_package/) about text processing, in section 'word vectors'.
+
 <br>
 
-To install the package from Github use the *install_github* function of the devtools package,
+To install the package from Github you can **either** use the *install_github* function of the devtools package,
 <br><br>
 
 ```R
 
 devtools::install_github('mlampros/fastTextR')
 
+
+```
+<br>
+
+**or** directly download the fastTextR-zip file using the **Clone or download** button in the [repository page](https://github.com/mlampros/fastTextR), extract it locally (rename it to *fastTextR* if necessary) and run,
+
+<br>
+
+```R
+
+setwd('/your_folder/fastTextR/')
+Rcpp::compileAttributes(verbose = TRUE)
+setwd('/your_folder/')
+system("R CMD build fastTextR")
+system("R CMD INSTALL fastTextR_1.0.0.tar.gz")
 
 ```
 <br>

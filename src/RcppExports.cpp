@@ -8,7 +8,7 @@ using namespace Rcpp;
 
 // convert_args_to_pointers
 void convert_args_to_pointers(std::vector<std::string> string_commands, std::string INPUT, std::string OUTPUT);
-RcppExport SEXP fastTextR_convert_args_to_pointers(SEXP string_commandsSEXP, SEXP INPUTSEXP, SEXP OUTPUTSEXP) {
+RcppExport SEXP _fastTextR_convert_args_to_pointers(SEXP string_commandsSEXP, SEXP INPUTSEXP, SEXP OUTPUTSEXP) {
 BEGIN_RCPP
     Rcpp::RNGScope rcpp_rngScope_gen;
     Rcpp::traits::input_parameter< std::vector<std::string> >::type string_commands(string_commandsSEXP);

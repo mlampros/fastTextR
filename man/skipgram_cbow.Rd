@@ -4,10 +4,11 @@
 \alias{skipgram_cbow}
 \title{wrapper for the skipgram and cbow methods of the fasttext text classifier}
 \usage{
-skipgram_cbow(input_path = NULL, output_path = NULL, method = "skipgram",
-  lr = 0.1, lrUpdateRate = 100, dim = 100, ws = 5, epoch = 5,
-  minCount = 1, neg = 5, wordNgrams = 1, loss = "ns", bucket = 2e+06,
-  minn = 0, maxn = 0, thread = 6, t = 1e-04, verbose = 2)
+skipgram_cbow(input_path = NULL, output_path = NULL,
+  method = "skipgram", lr = 0.1, lrUpdateRate = 100, dim = 100,
+  ws = 5, epoch = 5, minCount = 1, neg = 5, wordNgrams = 1,
+  loss = "ns", bucket = 2e+06, minn = 0, maxn = 0, thread = 6,
+  t = 1e-04, verbose = 2)
 }
 \arguments{
 \item{input_path}{a character string specifying the path to the train text file}
@@ -70,4 +71,3 @@ https://arxiv.org/abs/1607.04606
 
 https://arxiv.org/abs/1607.01759
 }
-

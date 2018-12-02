@@ -1,8 +1,8 @@
 Package: fastTextR
 Type: Package
 Title: Efficient learning of word representations
-Version: 1.0.1
-Date: 2018-11-14
+Version: 1.0.2
+Date: 2018-12-02
 Author: Lampros Mouselimis <mouselimislampros@gmail.com>
 Maintainer: Lampros Mouselimis <mouselimislampros@gmail.com>
 BugReports: https://github.com/mlampros/fastTextR/issues

@@ -26,17 +26,32 @@ devtools::install_github('mlampros/fastTextR')
 ```
 <br>
 
-**or** directly download the fastTextR-zip file using the **Clone or download** button in the [repository page](https://github.com/mlampros/fastTextR), extract it locally (rename it to *fastTextR* if necessary) and run,
+**or** directly download the fastTextR-zip file using the **Clone or download** button in the [repository page](https://github.com/mlampros/fastTextR), extract it locally (rename it to *fastTextR* if necessary and check that files such as DESCRIPTION, NAMESPACE etc. are present when you open the fastTextR folder) and then run,
 
 <br>
 
 ```R
 
+#-------------
+# on a Unix OS
+#-------------
+
 setwd('/your_folder/fastTextR/')
 Rcpp::compileAttributes(verbose = TRUE)
 setwd('/your_folder/')
 system("R CMD build fastTextR")
-system("R CMD INSTALL fastTextR_1.0.0.tar.gz")
+system("R CMD INSTALL fastTextR_1.0.2.tar.gz")
+
+
+#------------------
+# on the Windows OS  
+#------------------
+
+setwd('C:/your_folder/fastTextR/')
+Rcpp::compileAttributes(verbose = TRUE)
+setwd('C:/your_folder/')
+system("R CMD build fastTextR")
+system("R CMD INSTALL fastTextR_1.0.2.tar.gz")
 
 ```
 <br>

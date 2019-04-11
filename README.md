@@ -5,7 +5,12 @@
 <a href="https://www.buymeacoffee.com/VY0x8snyh" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" height="21px" ></a>
 
 
+
 ## fastTextR
+<br>
+
+**UPDATE 11-04-2019**: There is an [updated version of the fastText R package](https://github.com/mlampros/fastText) which includes all the features of the ported [fasttext library](https://github.com/facebookresearch/fastText). Therefore this repository is archived.
+
 <br>
 
 The fastTextR package is an R wrapper (only) for the *skipgram* and *cbow* functions of the [*fastText*](https://github.com/facebookresearch/fastText) library. *fastText* is a library for efficient learning of word representations and sentence classification. Since it uses C++11 features, it requires a compiler with good C++11 support. These include : (gcc-4.6.3 or newer) or (clang-3.3 or newer). More information about the fastText library can be found in [https://github.com/facebookresearch/fastText](https://github.com/facebookresearch/fastText). COPYRIGHTS, LICENSE and PATENTS files can be found in the *inst* folder of the R package.

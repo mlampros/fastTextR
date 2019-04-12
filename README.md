@@ -9,7 +9,7 @@
 ## fastTextR
 <br>
 
-**UPDATE 11-04-2019**: There is an [updated version of the fastText R package](https://github.com/mlampros/fastText) which includes all the features of the ported [fasttext library](https://github.com/facebookresearch/fastText). Therefore this repository is archived.
+**UPDATE 11-04-2019**: There is an [updated version of the fastText R package](https://github.com/mlampros/fastText) which includes all the features of the ported [fasttext library](https://github.com/facebookresearch/fastText). Therefore this repository **is archived**.
 
 <br>
 
